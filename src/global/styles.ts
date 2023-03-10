@@ -5,6 +5,7 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: var(--background-general);
   }
   
   html, body, #root {
@@ -17,7 +18,8 @@ export default createGlobalStyle`
     font-family: 'Archivo', -apple-system, sans-serif;
   }
 
-  /* :root {
-    
-  } */
+  :root {
+    --background-general: #E5E5E5;
+    --background-menu: #FFFFFF;
+  }
 `;
