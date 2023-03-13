@@ -19,7 +19,14 @@ export default createGlobalStyle`
   }
 
   :root {
+    /* BACKGROUND */
     --background-general: #E5E5E5;
     --background-menu: #FFFFFF;
+
+    /* COLOR */
+    --text-neutral: #172C41;
+
+    /* FONT FAMILY */
+    --roboto-family: 'Roboto';
   }
 `;

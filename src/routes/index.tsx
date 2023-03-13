@@ -3,7 +3,8 @@ import { BrowserRouter, Route, Switch, } from 'react-router-dom';
 
 import GlobalStyles from '../global/styles';
 
-import Home from '../pages/Home';
+import Home from '../pages/Home/Home';
+import Login from '../pages/Login/Login';
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <GlobalStyles />
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Login} />
+          <Route exact path="/home" component={Home} />
         </Switch>
       </BrowserRouter>
     </div>
